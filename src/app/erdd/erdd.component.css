@@ -1,0 +1,78 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgb(87, 91, 95);
+    font-size: 8vw;
+}
+
+.top-container {
+    display: flex;
+    gap: 20px;
+}
+
+.top-container img {
+    width: 40vw;
+    height: auto;
+    border-radius: 20px;
+}
+
+.short-description {
+    background-color: rgb(40, 41, 43);
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.short-description p {
+    margin: 0;
+    font-size: 2vw;
+}
+
+.erdd-description {
+    background-color: rgb(40, 41, 43);
+    border-radius: 20px;
+    font-size: 1.2vw;
+    padding: 30px;
+}
+
+.resaltar {
+    color: rgb(255, 123, 0);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.content img {
+    border-radius: 20px;
+    width: 16.4vw;
+    height: auto;
+
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
