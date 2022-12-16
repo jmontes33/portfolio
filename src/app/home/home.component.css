@@ -1,0 +1,224 @@
+.main-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgb(87, 91, 95);
+    font-size: 6vw;
+}
+
+.top-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.quien-soy {
+    border: none;
+    position: relative;
+    width: 50%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(40, 41, 43);
+    gap: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.quien-soy-enlace {
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.quien-soy:hover {
+    background-color: rgb(255, 81, 0);
+}
+
+.quien-soy p {
+    font-size: 2vw;
+    margin: 0;
+}
+
+.erdd {
+    border: none;
+    position: relative;
+    width: 50%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(40, 41, 43);
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.erdd-enlace {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.erdd:hover {
+    background-color: rgb(255, 81, 0);
+}
+
+.erdd-p {
+    font-size: 2vw;
+    width: 70%;
+    text-align: center;
+}
+
+.erdd img {
+    width: auto;
+    height: 180%;
+    margin-top: 170px;
+}
+
+.bottom-container {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.right-bottom-container {
+    display: flex;
+    gap: 20px;
+    width: 50%;
+    height: 25vh;
+}
+
+.proyectos {
+    position: relative;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    width: 50%;
+    height: 25vh;
+    border-radius: 20px;
+    background-color: rgb(40, 41, 43);
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.proyectos-enlace {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.proyectos:hover {
+    background-color: rgb(255, 81, 0);
+}
+
+.proyectos p {
+    margin: 0;
+    text-align: center;
+}
+
+.linkedin {
+    position: relative;
+    border: none;
+    width: 50%;
+    height: 25vh;
+    border-radius: 20px;
+    background-color: rgb(40, 41, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.linkedin-enlace {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.linkedin:hover {
+    background-color: rgb(255, 81, 0);
+}
+
+.linkedin p {
+    font-size: 4vw;
+    border: solid 3px white;
+    border-radius: 20px;
+    width: 7vw;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto {
+    position: relative;
+    border: none;
+    display: flex;
+    width: 50%;
+    height: 25vh;
+    border-radius: 20px;
+    background-color: rgb(40, 41, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.contacto-enlace {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.contacto:hover {
+    background-color: rgb(255, 81, 0);
+}
+
+.contacto-p {
+    font-size: 2vw;
+    width: 50%;
+    text-align: center;
+}
+
+.contacto img {
+    width: 10vw;
+    height: auto;
+}

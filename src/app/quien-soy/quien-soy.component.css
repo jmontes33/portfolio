@@ -1,0 +1,59 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgb(87, 91, 95);
+    font-size: 10vw;
+}
+
+.top-container {
+    display: flex;
+    gap: 20px;
+}
+
+.img-container img {
+    border-radius: 20px;
+    width: 47vw;
+    height: auto;
+}
+
+.short-description {
+    width: 50%;
+    border-radius: 20px;
+    background-color: rgb(40, 41, 43);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.short-description p {
+    margin: 0;
+}
+
+.short-description .saludo {
+    font-size: 2vw;
+}
+
+.short-description .desarrollador {
+    font-size: 1.3vw;
+}
+
+.sobre-mi {
+    background-color: rgb(40, 41, 43);
+    border-radius: 20px;
+    font-size: 1.2vw;
+    padding: 30px;
+}
+
+.resaltar {
+    color: rgb(255, 123, 0);
+}
